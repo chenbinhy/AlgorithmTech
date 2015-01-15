@@ -1,0 +1,61 @@
+﻿.btn
+{
+    display: inline-block;
+    width: 63px;
+    height: 25px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 3px;
+}
+.btn-background
+{
+    margin-right:10px;
+    cursor: pointer;
+    background: url(../../Images/btn/btnbg.png) no-repeat 0 0;
+}
+
+    .btn-background:hover
+    {
+        background: url(../../Images/btn/btnbg.png) no-repeat -485px 0;
+    }
+
+    .btn-background:active
+    {
+        background: url(../../Images/btn/btnbg.png) no-repeat -63px 0;
+    }
+
+    .btn-background.disabled
+    {
+        background: url(../../Images/btn/btnbg.png) no-repeat -422px 0;
+        cursor: not-allowed;
+    }
+
+.icon
+{
+    display: inline-block;
+    display: -moz-inline-stackc;
+    zoom: 1;
+    *display: inline;
+    width: 14px;
+    height: 14px;
+}
+
+.icon-add
+{
+    background: url(../../Images/btn/icon.png) no-repeat 0 0;
+}
+
+.icon-modify
+{
+    width: 17px;
+    height: 15px;
+    background: url(../../Images/btn/icon.png) no-repeat -69px 0;
+}
+
+.icon-del
+{
+    background: url(../../Images/btn/icon.png) no-repeat -42px 0;
+}

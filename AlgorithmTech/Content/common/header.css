@@ -1,0 +1,27 @@
+﻿.title-container
+{
+    width:100%;
+    height:50px;
+    background-color:black;
+    padding:10px 0px;
+    color:white;
+}
+
+.title-algorithmtech
+{
+    font-size:50px;
+    font-weight:700;
+    padding-left:10px;
+}
+
+.title-subhead
+{
+    font-size:25px;
+    padding-left:20px;
+}
+
+.title-nav
+{
+    font-size:20px;
+    padding-right:30px;
+}

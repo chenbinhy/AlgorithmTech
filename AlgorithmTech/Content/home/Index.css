@@ -1,0 +1,57 @@
+﻿.article-container
+{
+    width:50%;
+}
+
+.article-nav
+{
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    color:white;
+}
+
+.newest-article
+{
+    background-color: #3b8dbd;
+    color:white;
+}
+
+.hot-article
+{
+    background-color:#7fc04c;
+}
+
+.articletitle
+{
+    font-size:20px;
+}
+.article-record-container
+{
+    padding:20px 15px; 
+    border:1px solid gray;
+}
+.article-record-img-container
+{
+    float:left; 
+    margin-right:15px;
+}
+
+.article-record-img
+{
+    width:300px;
+    height:150px;
+}
+
+.tag
+{
+    font-size:12px;
+}
+
+.clear-both
+{
+    clear:both;
+}
+
+

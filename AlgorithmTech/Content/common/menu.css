@@ -1,0 +1,321 @@
+﻿.items-wrap{
+	background:#E6E6E6;
+	overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.items{
+	padding:0;
+    margin:0;
+    width:60px;
+}
+
+.items-func{
+	list-style:none;
+	font-size:18px;
+	color:#444;
+	height:94px;
+    border-bottom:solid 1px #C3C3C3;
+    border-right:solid 1px #C3C3C3;
+}
+
+.items-logo
+{
+    width:32px;
+    height:32px;
+    margin-left:12px;
+    margin-right:8px;
+    float:left;
+    margin-top:31px;
+}
+
+.items-logo div {
+    width:32px; 
+    height:32px; 
+}
+.items-logo-task {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -576px;
+}
+.items-logo-task.disabled {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -608px;
+}
+.items-logo-project {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -288px;
+}
+.items-logo-project.disabled {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -320px;
+}
+.items-logo-risky {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -384px;
+}
+.items-logo-risky.disabled {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -416px;
+}
+.items-logo-crisis {
+    background:url(../../Images/menu/menu.png) no-repeat  0 0;
+}
+.items-logo-crisis.disabled {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -32px;
+}
+.items-logo-datum {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -96px;
+}
+.items-logo-datum.disabled {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -128px;
+}
+.items-logo-emp {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -192px;
+}
+.items-logo-emp.disabled {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -224px;
+}
+.items-logo-settings {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -480px;
+}
+.items-logo-settings.disabled {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -512px;
+}
+.items-logo-report {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -672px;
+}
+.items-logo-report.disabled {
+    background:url(../../Images/menu/menu.png) no-repeat  0 -704px;
+}
+
+.items-text,.subItems-text {
+    white-space:nowrap; 
+    text-overflow:ellipsis; 
+    -o-text-overflow:ellipsis; 
+    overflow:hidden;
+}
+.items-text
+{
+    float:left;
+    margin-top:31px;
+    height:25px;
+    display:none;
+}
+.items-text.disabled {
+    color:gray;
+}
+
+.items-func:hover{
+    background:url(../../Images/menu/layout.png) no-repeat -1299px 0px;
+	color:white;
+}
+
+.subItems{
+	position:fixed;
+    z-index:21;
+	top:100px;
+	left:174px;
+	background:#E6E6E6;
+	width:140px;
+	padding:0;
+	margin:0;
+	overflow:auto;
+	display:none;
+    border-top:solid 1px #C3C3C3;
+}
+.subItems li{
+    height:47px;
+	list-style:none;
+	font-size:13px;
+    color:#444;
+	cursor:default;
+	text-align:center;
+    cursor:pointer;
+    border-bottom:solid 1px #C3C3C3;
+    border-right:solid 1px #C3C3C3;
+}
+.subItems-logo
+{
+    width:24px;
+    height:24px;
+    margin-left:10px;
+    margin-right:5px;
+    margin-top:10px;
+    float:left;
+}
+.subItems-logo div{
+    width:24px;
+    height:24px;
+}
+.subItems-logo-taskmine {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1776px;
+}
+.subItems-logo-taskassign {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1728px;
+}
+.subItems-logo-taskroutine {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1824px;
+}
+
+.subItems-logo-projectinfo {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -912px;
+}
+.subItems-logo-projectlist {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1008px;
+}
+.subItems-logo-projectreview {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1104px;
+}
+.subItems-logo-projectworkreport {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1200px;
+}
+.subItems-logo-projectledger {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -960px;
+}
+.subItems-logo-projectout {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1056px;
+}
+.subItems-logo-projectin {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -864px;
+}
+.subItems-logo-projecttest {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1152px;
+}
+.subItems-logo-projectinout {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -2016px;
+}
+
+.subItems-logo-riskysettings {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1632px;
+}
+.subItems-logo-riskyproject {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1296px;
+}
+.subItems-logo-riskyprice {
+    background:url(../Images/menu/submenu.png) no-repeat  0 -1248px;
+}
+
+.subItems-logo-crisisproject {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -144px;
+}
+.subItems-logo-crisislevel {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -96px;
+}
+.subItems-logo-crisistype {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -240px;
+}
+.subItems-logo-crisisstatus {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -192px;
+}
+.subItems-logo-crisisemergencyplan {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -48px;
+}
+.subItems-logo-crisisemergencyevent {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 0;
+}
+
+.subItems-logo-datumdoc {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -336px;
+}
+.subItems-logo-datummortgagor {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -384px;
+}
+.subItems-logo-datumpledgee {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -480px;
+}
+.subItems-logo-datumdetection {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -288px;
+}
+.subItems-logo-datumratingagency {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -528px;
+}
+.subItems-logo-datumpledge {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -432px;
+}
+.subItems-logo-datumspotmaterial {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -576px;
+}
+
+.subItems-logo-empattendance {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -624px;
+}
+.subItems-logo-empschedual {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -720px;
+}
+.subItems-logo-empsignin {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -768px;
+}
+.subItems-logo-empperformance {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -672px;
+}
+.subItems-logo-empsubsidy {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -816px;
+}
+
+.subItems-logo-settingsetc {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1488px;
+}
+.subItems-logo-settingsprojectstatus {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1392px;
+}
+.subItems-logo-settingsprojectgroup {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1968px;
+}
+.subItems-logo-settingsdoc {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1584px;
+}
+.subItems-logo-settingscredit {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1344px;
+}
+.subItems-logo-settingsplaceholder {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1536px;
+}
+.subItems-logo-settingssmstemplate {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1680px;
+}
+.subItems-logo-settingsemailtemplate {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1440px;
+}
+.subItems-logo-reportledger {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1872px;
+}
+.subItems-logo-reportstorage {
+    background:url(../../Images/menu/submenu.png) no-repeat  0 -1920px;
+}
+
+.subItems-logo-settingexcelimport{
+    background:url(../../Images/menu/submenu.png) no-repeat 0 -2068px;
+}
+
+.subItems-text
+{
+    margin-top:12px;
+    text-align:left;
+    float:left;
+    width:80px;
+    height:25px;
+}
+.subItems li:hover{
+    background:url(../../Images/menu/layout.png) no-repeat -1752px 0px;
+	color:white;
+}
+
+.subItems li:active{
+    background:url(../../Images/menu/layout.png) no-repeat -1577px 0px;
+}
+
+.div-expander {
+    position:fixed;
+    z-index:20;
+    /*top:50%;*/
+    width:26px;
+    height:26px;
+    display:none;
+}
+
+.div-expander.div-expand {
+    background:url(../../Images/menu/layout.png) no-repeat -1525px 0px;
+}
+.div-expander.div-expand:hover {
+    background:url(../../Images/menu/layout.png) no-repeat -1551px 0px;
+}
+.div-expander.div-collapse {
+    background:url(../../Images/menu/layout.png) no-repeat -1473px 0px;
+}
+.div-expander.div-collapse:hover {
+    background:url(../../Images/menu/layout.png) no-repeat -1499px 0px;
+}

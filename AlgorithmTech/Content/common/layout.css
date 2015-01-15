@@ -1,0 +1,21 @@
+﻿/*  layout
+----------------------------------------------------------*/
+#top {
+    height: 70px;
+    overflow: hidden;
+    background:#2D7CCB;
+}
+
+#middle {
+    height:100%;
+}
+
+#middle_left {
+    float: left;
+    width: 60px;
+    margin-right:20px;
+}
+
+#mainWrap {
+    overflow: auto;
+}

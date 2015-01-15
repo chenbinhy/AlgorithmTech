@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Dylan.AlgorithmTech.Model.TagInfo>
+
+@{
+    ViewBag.Title = "标签";
+    Layout = "~/Views/Shared/_IframeLayout.cshtml";
+}
+<link href="~/Content/base.css" rel="stylesheet" />
+<link href="~/Content/common/searcher.css" rel="stylesheet" />
+
+<div>
+    @Html.Partial("_Search")
+</div>
+<div>
+    <div id="div-grid"></div>
+</div>

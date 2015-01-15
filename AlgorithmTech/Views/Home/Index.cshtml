@@ -1,0 +1,47 @@
+﻿
+<link href="~/Content/home/Index.css" rel="stylesheet" />
+
+<div id="body">
+    <div style="" class="float-left article-container">
+        <div class="newest-article article-nav">
+            <label>最新发布</label>
+        </div>
+        <div id="newest-article-container"></div>
+    </div> 
+    <div style="width:50%;float:right;">
+        <div class="hot-article article-nav">
+            <label>最热文章</label>
+        </div>
+       <div id="hot-article-container"></div>
+    </div>
+</div>
+
+@section Scripts{
+    <script type="text/javascript" src="~/Scripts/jquery/jquery-1.7.1.js"></script>
+    <script type="text/javascript" src="~/Scripts/Common/extention.js"></script>
+    <script type="text/javascript" src="~/Scripts/plugin/jquery.articleui.js"></script>
+    <script type="text/javascript">
+
+        function articleRecordeClick(record) {
+            alert(record.articleId);
+        }
+
+        $("#hot-article-container").articleui({
+            articleRecordeClick:articleRecordeClick, 
+            data: [
+                { imgPath: '/Images/1.jpg', title: '快速排序', tag: '数据结构', articleId:1 },
+                { imgPath: '/Images/1.jpg', title: '快速排序', tag: '数据结构', articleId: 2 },
+                { imgPath: '/Images/1.jpg', title: '快速排序', tag: '数据结构', articleId: 3 },
+                { imgPath: '/Images/1.jpg', title: '快速排序', tag: '数据结构', articleId: 4 },
+                { imgPath: '/Images/1.jpg', title: '二分法', tag: '操作系统', articleId: 5 }
+            ]
+        });
+        $("#newest-article-container").articleui({
+            articleRecordeClick: articleRecordeClick,
+            data: [
+                { imgPath: '/Images/1.jpg', title: '快速排序', tag: '数据结构', articleId: 6 },
+                { imgPath: '/Images/1.jpg', title: '二分法', tag: '操作系统', articleId: 7 }
+            ]
+        });
+    </script>
+}
